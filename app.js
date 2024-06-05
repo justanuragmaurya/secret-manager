@@ -7,7 +7,7 @@ const app = express();
 dotenv.config();
 
 const port = process.env.PORT || 3000; 
-const url = process.env.URL;
+const url = process.env.MURL;
 let result;
 
 
